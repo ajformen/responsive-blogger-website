@@ -41,4 +41,7 @@ $(document).ready(function () {
         }, 1000);
     })
 
+    // Animation on Scroll Instance
+    AOS.init();
+
 });

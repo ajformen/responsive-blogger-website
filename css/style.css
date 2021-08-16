@@ -405,7 +405,7 @@ main .post-content .post-title a {
     padding-top: 5rem 0;
 }
 
-.site-content .sidebar .popular-tags .tag {
+.site-content .sidebar .popular-tags .tags .tag {
     background: var(--sky);
     padding: .4rem 1rem;
     border-radius: 3rem;
@@ -467,7 +467,7 @@ footer.footer .instagram div > img {
     margin: .3rem .4rem;
 }
 
-.footer.footer .follow div i {
+footer.footer .follow div i {
     color: var(--white);
     padding: 0 .4rem;
 }
@@ -498,7 +498,6 @@ footer.footer .move-up span:hover {
 
 /*--------x--------Footer--------x-------*/
 
-
 /*          Viewport less than or equal to 1130px           */
 
 @media only screen and (max-width: 1130px) {
@@ -507,14 +506,14 @@ footer.footer .move-up span:hover {
         bottom: 1.2rem !important;
         border-radius: 0% !important;
     }
-}
 
-.site-content .sidebar .popular-post .post-info {
-    display: none !important;
-}
-
-footer.footer .container {
-    grid-template-columns: repeat(2, 1fr);
+    .site-content .sidebar .popular-post .post-info {
+        display: none !important;
+    }
+    
+    footer.footer .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /*      x    Viewport less then or equal to 1130px           x    */
